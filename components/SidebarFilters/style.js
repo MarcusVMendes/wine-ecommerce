@@ -5,17 +5,16 @@ export const SideBarContainer = styled.aside`
     flex-direction: column;
     justify-content: flex-end;
     height: 240px;
-    left: 100px;
-    position: absolute;
-    top: 180px;
     width: 256px;
+    margin-top: 50px;
+    /* background-color: red; */
 
-    h3 {
+    h2 {
         font-weight: 700;
         font-size: 24px;
         color: #000000;
         position: absolute;
-        top: -75px
+        top: 90px;
     }
 
     h4 {

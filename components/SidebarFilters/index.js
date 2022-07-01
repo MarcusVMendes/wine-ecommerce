@@ -4,7 +4,7 @@ import { SideBarContainer } from './style';
 function SidebarFilters() {
     return (
         <SideBarContainer>
-            <h3>Refine sua busca</h3>
+            <h2>Refine sua busca</h2>
             <h4>Por preço</h4>
             <form>
                 <label htmlFor="40">
