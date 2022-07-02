@@ -9,6 +9,7 @@ function HomePage() {
   const [page, setPage] = useState("1");
   const [limit, setLimit] = useState("10");
   const [products, setProducts] = useState([]);
+  const [productsCounter, setProductsCounter] = useState(0);
 
   useEffect(() => {
     handleRequestProducts(page, limit);
@@ -16,8 +17,9 @@ function HomePage() {
 
   const handleRequestProducts = async (page, limit) => {
     try {
-      const { items } = await requestProductList(page, limit);
+      const { items, totalItems } = await requestProductList(page, limit);
       setProducts(items);
+      setProductsCounter(totalItems);
     } catch (error) {
       console.log(error);
     }
@@ -28,7 +30,7 @@ function HomePage() {
       <Header />
       <div className={styles.flexboxContainer}>
         <SidebarFilters />
-        <ProductSection products={products} />
+        <ProductSection products={products} productsCount={productsCounter} />
       </div>
     </div>
   );

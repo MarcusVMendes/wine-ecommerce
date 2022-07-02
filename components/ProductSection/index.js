@@ -2,13 +2,16 @@ import React from 'react';
 import ProductCard from '../ProductCard';
 import { ProductListContainer } from './style';
 
-function ProductSection({ products }) {
+function ProductSection({ products, productsCount }) {
     return (
-        <ProductListContainer>
-            {products.map(product => (
-                <ProductCard product={product} key={product.id} />
-            ))}
-        </ProductListContainer>
+        <div>
+            {/* <span>{productsCount} produtos encontrados</span> */}
+            <ProductListContainer>
+                {products.map(product => (
+                    <ProductCard product={product} key={product.id} />
+                ))}
+            </ProductListContainer>
+        </div>
     );
 };
 
