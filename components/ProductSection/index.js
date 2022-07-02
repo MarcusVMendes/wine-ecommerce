@@ -3,7 +3,6 @@ import ProductCard from '../ProductCard';
 import { ProductListContainer } from './style';
 
 function ProductSection({ products }) {
-    console.log(products);
     return (
         <ProductListContainer>
             {products.map(product => (

@@ -7,6 +7,7 @@ export const HeaderContainer = styled.header`
     height: 88px;
     justify-content: space-around;
     width: 100%;
+    z-index: 1;
 `;
 
 export const LogoContainer = styled.div`
