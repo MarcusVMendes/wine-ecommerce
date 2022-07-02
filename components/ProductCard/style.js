@@ -29,10 +29,11 @@ export const CardContainer = styled.div`
 `;
 
 export const ImageContainer = styled.div`
+    align-items: flex-end;
+    align-self: flex-end;
     display: flex;
     height: 178.13px;
-    justify-content: center;
-    margin-top: 10px;
+    justify-content: space-around;
     min-height: 178.13px;
     width: 198.57px;
 `;
@@ -41,7 +42,7 @@ export const OfferContainer = styled.div`
     align-items: center;
     display: flex;
     justify-content: space-around;
-    min-height: 25px;
+    max-height: 25px;
     min-width: 120px;
 
     p {
@@ -65,6 +66,7 @@ export const OfferContainer = styled.div`
 export const PartnerContainer = styled.div`
     align-items: center;
     display: flex;
+    margin-bottom: 5px;
     min-height: 25px;
 
     .describe {

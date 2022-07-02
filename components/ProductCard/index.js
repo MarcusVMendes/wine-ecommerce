@@ -24,8 +24,8 @@ function ProductCard({ product }) {
         <Wrapper>
             <CardContainer>
                 <ImageContainer>
-                    <Image src={product.image} alt={product.name} width={100} height={100} className='product-image' />
-                    <Stamp />
+                    <Image src={product.image} alt={product.name} width={120} height={175} className='product-image' />
+                    <Stamp className='stamp' />
                 </ImageContainer>
                 <h2 className='title'>{product.name}</h2>
                 <OfferContainer>
@@ -42,7 +42,7 @@ function ProductCard({ product }) {
                     </div>
                 </PartnerContainer>
                 <NonPartnerContainer>
-                    <span>Não Sócio {`R$ ${priceNonMember[0]},${priceNonMember[0]}`}</span>
+                    <span>Não Sócio {`R$ ${priceNonMember[0]},${priceNonMember[1]}`}</span>
                 </NonPartnerContainer>
             </CardContainer>
             <button>Adicionar</button>

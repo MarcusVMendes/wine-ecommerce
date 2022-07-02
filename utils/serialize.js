@@ -12,8 +12,8 @@ export const serializePriceMember = (product) => {
 export const serializePriceNonMember = (product) => {
     const { priceNonMember } = product;
     const [integer, decimal] = String(priceNonMember).split('.');
-    if (decimal === undefined) {
-        let newDecimal = decimal + '00';
+    if (decimal == undefined) {
+        let newDecimal = '00';
         return [integer, newDecimal];
     } else {
         return [integer, decimal];
