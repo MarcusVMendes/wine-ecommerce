@@ -17,8 +17,6 @@ A proposta do projeto é desenvolver um e-commerce de vinhos com NextJS e uma AP
   - Compreender os conceitos de ssr, csr, ssg
   - Criar múltiplos componentes dinamicamente
   - Utilizar **styled-components** para estilizar o projeto
-<br>
-<br>
 
 
 # Instalação do projeto localmente
