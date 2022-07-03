@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Boas vindas ao repositório do projeto wine-ecommerce!
 
-## Getting Started
 
-First, run the development server:
+Este projeto foi desenvolvido por [MarcusVMendes](http://www.linkedin.com/in/marcusvmendes-dev) como teste técnico para a vaga de Desenvolvedor Web Front End na empresa [Wine](https://www.wine.com.br/).  #vqv 🚀
 
-```bash
-npm run dev
-# or
-yarn dev
+A proposta do projeto é desenvolver um e-commerce de vinhos com NextJS e uma API disponibilizada pela empresa.
+
+
+# Aprendizados
+
+  - Inicializar um projeto utilizando **NextJS**
+  - Criar componentes **NextJS**
+  - Criar rotas estáticas e dinâmicas com **NextJS**
+  - Utilizar o component Link do **NextJS**
+  - Utilizar o component Image do **NextJS**
+  - Utilizar o component Router do **NextJS**
+  - Compreender os conceitos de ssr, csr, ssg
+  - Criar múltiplos componentes dinamicamente
+  - Utilizar **styled-components** para estilizar o projeto
+<br>
+<br>
+
+
+# Instalação do projeto localmente
+
+Após cada um dos passos, haverá um exemplo do comando a ser digitado para fazer o que está sendo pedido, caso tenha dificuldades e o exemplo não seja suficiente, não hesite em me contatar em _marcus.mendes89@gmail.com_.
+<br>
+<br>
+
+<div style="text-align: left">1. Abra o terminal e crie um diretório no local de sua preferência com o comando <b>mkdir</b>:</div><br>
+
+```javascript
+mkdir projetos
+```
+<br>
+<div style="text-align: left">2. Entre no diretório que acabou de criar e depois clone o projeto:<div><br>
+
+
+```javascript
+cd projetos
+git clone git@github.com:MarcusVMendes/wine-ecommerce.git
+```
+<br>
+<div style="text-align: left">3. Acesse o diretório do projeto e depois utilize o comando <b>npm install</b> para instalar todas as dependências necessárias:<div><br>
+
+```javascript
+cd wine-ecommerce
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
+<div style="text-align: left">4. Na raiz do repositório, executar o comando <b>npm run dev</b> para inicializar a execução do projeto:<div><br>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```javascript
+npm run dev
+```
+<br>
